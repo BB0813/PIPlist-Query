@@ -51,7 +51,7 @@ macOS/Linux: 使用sudo命令。
 sudo python piplist.py
 ```
 
-> **联系方式**
+## 联系方式
 >> 个人主页: `https://bb0813.github.io/Binbim_homepage/`  
 >> 做题鸭工作室官网: `https://zuotiya.com/`  
 >> 云锻科技工作室官网: `https://sf-tech.zuotiya.com`  
