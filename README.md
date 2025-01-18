@@ -62,3 +62,4 @@ sudo python piplist.py
 
 # 版权与许可
 **版权: © BinbimTech**
+**许可证：Apache-2.0 license**
