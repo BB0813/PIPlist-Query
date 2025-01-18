@@ -61,5 +61,5 @@ sudo python piplist.py
 >> GitHub: `https://github.com/BB0813`  
 
 # 版权与许可
-**版权: © BinbimTech**
+**版权: © BinbimTech**  
 **许可证：Apache-2.0 license**
