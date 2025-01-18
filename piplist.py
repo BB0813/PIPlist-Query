@@ -1,3 +1,4 @@
+#!python
 import pandas as pd
 import subprocess
 from filelock import FileLock
@@ -30,8 +31,8 @@ def get_language_version(command, pattern):
             return match.group(1)
         else:
             return "版本信息未找到"
-    except Exception as e:
-        return str(e)
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        return "版本信息未找到"
 
 def get_installed_languages():
     languages = []
