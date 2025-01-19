@@ -31,6 +31,7 @@ python piplist.py -f 已安装库信息.xlsx
 - 输入 2 选择编程语言信息。
 - 输入 3 选择Python库信息。
 - 输入 4 选择前端框架信息。
+- 输入 5 选择依赖匹配信息。
 
 **选择后，脚本将检测并保存所有信息到已安装库信息.xlsx文件中**
 
@@ -38,6 +39,7 @@ python piplist.py -f 已安装库信息.xlsx
 - 编程语言：包含已安装的编程语言及其版本信息。
 - Python库：包含已安装的Python库及其版本信息。
 - 前端框架：包含已安装的前端框架及其版本信息。
+- 依赖匹配：包含依赖文件内所有Python库相关信息，并注明是否安装，版本号是否匹配。
 
 ## 注意事项
 1. **命令行工具：确保你已经安装了相应的命令行工具（如gcc、go、npm、ruby、php、perl、swift、rust、dotnet等），以便脚本能够正确检测其版本信息。**
@@ -50,7 +52,7 @@ Windows: 右键点击命令提示符或PowerShell，选择“以管理员身份�
 macOS/Linux: 使用sudo命令。
 sudo python piplist.py
 ```
-
+4. **依赖匹配问题：需要将依赖文件“requirements.txt”放置到工具目录才可正常检索**
 ## 联系方式
 >> 个人主页: `https://bb0813.github.io/Binbim_homepage/`  
 >> 做题鸭工作室官网: `https://zuotiya.com/`  
