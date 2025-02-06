@@ -56,7 +56,7 @@ sudo python piplist.py
 ## 联系方式
 >> 个人主页: `https://bb0813.github.io/Binbim_homepage/`  
 >> 做题鸭工作室官网: `https://zuotiya.com/`  
->> 云锻科技工作室官网: `https://sf-tech.zuotiya.com`  
+>> 云锻开源|CloudForgeTech官网: `https://sf-tech.zuotiya.com`  
 >> 邮箱: `18677523963`  
 >> QQ 群组: `992848286`  
 >> Telegram 频道: `@binbimasia`  
