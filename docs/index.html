@@ -3,138 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Python环境管理工具 - 专业的Python开发环境管理解决方案</title>
-    <!-- ... 其他 meta 标签 ... -->
-    
-    <!-- Google Fonts -->
+    <title>Python环境管理工具</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-    
-    <!-- Animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    
-    <!-- AOS - Animate On Scroll -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
-    <!-- 原有的样式表 -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- 导航栏 -->
     <nav>
         <div class="container">
-            <div class="logo">Python环境管理工具</div>
+            <div class="logo"><a href="index.html">Python环境管理工具</a></div>
             <ul class="nav-links">
-                <li><a href="/features">功能特点</a></li>
-                <li><a href="/download">下载</a></li>
-                <li><a href="/guide">使用指南</a></li>
-                <li><a href="/contact">联系我们</a></li>
+                <li><a href="features/index.html">功能特点</a></li>
+                <li><a href="download/index.html">下载</a></li>
+                <li><a href="guide/index.html">使用指南</a></li>
+                <li><a href="contact/index.html">联系我们</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- 主横幅 -->
-    <header class="hero">
+    <section class="hero">
         <div class="container">
             <h1>Python环境管理工具</h1>
             <p>一站式Python开发环境管理解决方案</p>
-            <a href="#download" class="cta-button">立即下载</a>
+            <a href="download/index.html" class="cta-button">立即下载</a>
         </div>
-    </header>
+    </section>
 
-    <!-- 功能特点 -->
-    <section id="features" class="features">
+    <section class="features">
         <div class="container">
             <h2>核心功能</h2>
             <div class="feature-grid">
-                <div class="feature-card">
+                <div class="feature-card" data-aos="fade-up">
                     <i class="fas fa-box"></i>
                     <h3>包管理</h3>
-                    <p>检测已安装的包、导出信息、生成依赖图、检查版本匹配</p>
+                    <p>检测已安装包信息，导出依赖，生成依赖关系图</p>
                 </div>
-                <div class="feature-card">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
                     <i class="fas fa-terminal"></i>
                     <h3>虚拟环境管理</h3>
                     <p>创建、查看、激活和删除虚拟环境</p>
                 </div>
-                <div class="feature-card">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
                     <i class="fas fa-shield-alt"></i>
                     <h3>安全检查</h3>
-                    <p>检查包的安全警告、导出安全报告</p>
+                    <p>检查包的安全警告，导出安全报告</p>
                 </div>
-                <div class="feature-card">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
                     <i class="fas fa-chart-line"></i>
                     <h3>性能监控</h3>
-                    <p>实时监控系统资源使用情况</p>
+                    <p>监控CPU和内存使用情况</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 下载部分 -->
-    <section id="download" class="download">
-        <div class="container">
-            <h2>下载使用</h2>
-            <div class="download-options">
-                <div class="download-card">
-                    <h3>Windows 可执行文件</h3>
-                    <p>版本：v1.0.0</p>
-                    <p>适用于：Windows 10/11</p>
-                    <a href="#" class="download-button">下载 EXE</a>
-                </div>
-                <div class="download-card">
-                    <h3>源代码</h3>
-                    <p>开源版本</p>
-                    <p>需要 Python 3.6+</p>
-                    <a href="https://github.com/BB0813" class="download-button">GitHub</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 使用指南 -->
-    <section id="guide" class="guide">
-        <div class="container">
-            <h2>使用指南</h2>
-            <div class="guide-content">
-                <div class="guide-step">
-                    <h3>1. 安装运行</h3>
-                    <p>下载可执行文件后直接运行，无需安装Python环境</p>
-                </div>
-                <div class="guide-step">
-                    <h3>2. 选择功能</h3>
-                    <p>在主界面选择需要的功能：包管理、虚拟环境、安全检查或性能监控</p>
-                </div>
-                <div class="guide-step">
-                    <h3>3. 查看结果</h3>
-                    <p>所有生成的文件将保存在程序所在的"results"文件夹中</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 联系方式 -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>联系我们</h2>
-            <div class="contact-info">
-                <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <p>邮箱：hbq30@outlook.com</p>
-                </div>
-                <div class="contact-item">
-                    <i class="fab fa-qq"></i>
-                    <p>QQ：1721822150</p>
-                </div>
-                <div class="contact-item">
-                    <i class="fab fa-github"></i>
-                    <p>GitHub：<a href="https://github.com/BB0813">BB0813</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 页脚 -->
     <footer>
         <div class="container">
             <div class="footer-content">
@@ -149,10 +73,7 @@
         </div>
     </footer>
 
-    <!-- 访问统计 -->
     <script defer src="//webviso.yestool.org/js/index.min.js"></script>
-    
-    <!-- AOS初始化 -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
@@ -160,5 +81,5 @@
             once: true
         });
     </script>
-    </body>
+</body>
 </html>
