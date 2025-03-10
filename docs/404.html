@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        const routes = {
+            '/features': '/features/index.html',
+            '/download': '/download/index.html',
+            '/guide': '/guide/index.html',
+            '/contact': '/contact/index.html'
+        };
+        
+        const path = window.location.pathname;
+        if (routes[path]) {
+            window.location.replace(routes[path]);
+        }
+    </script>
+</head>
+</html>

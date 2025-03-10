@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>功能特点 - Python环境管理工具</title>
+    <!-- 引入相同的样式表和库 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo"><a href="/">Python环境管理工具</a></div>
+            <ul class="nav-links">
+                <li><a href="/features" class="active">功能特点</a></li>
+                <li><a href="/download">下载</a></li>
+                <li><a href="/guide">使用指南</a></li>
+                <li><a href="/contact">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="features-detail">
+        <div class="container">
+            <h1>功能特点</h1>
+            
+            <!-- 包管理 -->
+            <div class="feature-item" data-aos="fade-up">
+                <h2><i class="fas fa-box"></i> 包管理</h2>
+                <div class="feature-content">
+                    <div class="feature-description">
+                        <ul>
+                            <li>检测已安装的 Python 包及其版本</li>
+                            <li>导出包信息为 JSON/YAML 格式</li>
+                            <li>生成包依赖关系图</li>
+                            <li>检查包版本与 requirements.txt 的匹配情况</li>
+                        </ul>
+                        <div class="feature-output">
+                            <h4>输出文件：</h4>
+                            <ul>
+                                <li>Python库.xlsx - 已安装的 Python 包信息</li>
+                                <li>dependency_graph.png - Python 包依赖关系图</li>
+                                <li>依赖匹配.xlsx - requirements.txt 的依赖匹配结果</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 虚拟环境管理 -->
+            <div class="feature-item" data-aos="fade-up">
+                <h2><i class="fas fa-terminal"></i> 虚拟环境管理</h2>
+                <div class="feature-content">
+                    <div class="feature-description">
+                        <ul>
+                            <li>创建新的虚拟环境</li>
+                            <li>查看现有虚拟环境列表</li>
+                            <li>激活指定的虚拟环境</li>
+                            <li>删除不需要的虚拟环境</li>
+                        </ul>
+                        <div class="feature-note">
+                            <p>注意：虚拟环境的创建和删除可能需要一定时间，请耐心等待</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 安全检查 -->
+            <div class="feature-item" data-aos="fade-up">
+                <h2><i class="fas fa-shield-alt"></i> 安全检查</h2>
+                <div class="feature-content">
+                    <div class="feature-description">
+                        <ul>
+                            <li>检查已安装包的安全警告</li>
+                            <li>导出安全检查报告</li>
+                            <li>实时显示检查进度</li>
+                        </ul>
+                        <div class="feature-output">
+                            <h4>输出文件：</h4>
+                            <ul>
+                                <li>security_check_*.txt - 安全检查报告</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 性能监控 -->
+            <div class="feature-item" data-aos="fade-up">
+                <h2><i class="fas fa-chart-line"></i> 性能监控</h2>
+                <div class="feature-content">
+                    <div class="feature-description">
+                        <ul>
+                            <li>实时监控 CPU 使用率</li>
+                            <li>内存使用情况跟踪</li>
+                            <li>磁盘使用状态监控</li>
+                            <li>导出监控数据为 CSV 格式</li>
+                        </ul>
+                        <div class="feature-output">
+                            <h4>输出文件：</h4>
+                            <ul>
+                                <li>performance_monitor_*.csv - 性能监控数据</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Python环境管理工具. 保留所有权利.</p>
+                <div class="visitor-stats">
+                    <p>
+                        本页访问人次：<span id="page_pv"></span>
+                        本页访问人数：<span id="page_uv"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script defer src="//webviso.yestool.org/js/index.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
+</body>
+</html>

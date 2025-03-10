@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>使用指南 - Python环境管理工具</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo"><a href="/">Python环境管理工具</a></div>
+            <ul class="nav-links">
+                <li><a href="/features">功能特点</a></li>
+                <li><a href="/download">下载</a></li>
+                <li><a href="/guide" class="active">使用指南</a></li>
+                <li><a href="/contact">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="guide-page">
+        <div class="container">
+            <h1>使用指南</h1>
+            <div class="guide-sections">
+                <div class="guide-section" data-aos="fade-up">
+                    <h2>快速开始</h2>
+                    <div class="guide-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h3>下载安装</h3>
+                                <p>从下载页面获取最新版本的可执行文件，双击即可运行，无需安装</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h3>选择功能</h3>
+                                <p>在主界面选择需要使用的功能：包管理、虚拟环境、安全检查或性能监控</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h3>查看结果</h3>
+                                <p>所有生成的文件将保存在程序所在的"results"文件夹中</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Python环境管理工具. 保留所有权利.</p>
+                <div class="visitor-stats">
+                    <p>
+                        本页访问人次：<span id="page_pv"></span>
+                        本页访问人数：<span id="page_uv"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 访问统计 -->
+    <script defer src="//webviso.yestool.org/js/index.min.js"></script>
+    
+    <!-- AOS初始化 -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
+</body>
+</html>
